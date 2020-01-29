@@ -1,0 +1,352 @@
+body {
+    margin: 0;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #333;
+    min-width: 1010px;
+ } 
+//в  min-width прописывает минимальный размер ширины. На мобилках будет мастабироваться
+
+
+// навигация
+
+nav{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+    max-width: 1010px;
+    width: 100%;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    text-transform: uppercase;
+}
+
+ul.top__menu{
+	display: flex;
+}
+
+.top_menu{
+    margin: 0;
+    padding: 0;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.top_menu:hover{
+}
+
+
+.top___menu{
+	color: #000000;	
+    padding: 10px 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.top___menu:hover{
+	color: #fff;
+	background: #D03958;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+// intro
+.intro{	
+	background: url("../images/one block/1.jpg") center no-repeat;
+	
+	background-size: cover;
+	height: 695px;
+	max-height: 100%;
+	flex-direction: column;
+	justify-content: center;    
+	display: flex;
+}
+
+.intro::before{
+	background: #fff;
+}
+
+.container--one{	
+    display: flex;
+	text-align: left;
+    align-items: center;
+	width: 490px;
+    height: 260px;
+    color: #fff;
+}
+
+.intro__text{
+	width: 600px; 
+}
+
+.intro__text_p{
+	width: 510px; 
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 90px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+// 2 блок
+.section--two{
+	background: #FFFFFF;	
+}
+
+.two_block_h2{
+	text-align: left;
+}
+.two__block{
+}
+.two_block_ul{
+	display: flex;
+    justify-content: space-between;
+}
+
+.two_block_li{
+	font-size: 20px;
+    width: 180px;	
+    height: 260px;
+    text-align: center;
+}
+
+.two_block__img{
+	height: 175px;
+}
+
+.two_block_img{
+	margin: 0 auto;
+    height: 155px;
+}
+
+.two_block_p{
+	text-align: center;
+}
+
+// 3 блок
+.section--three{
+	background: #D03958;	
+}
+
+.three_block_text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.three_block_p{
+	width: 630px;
+	color: #fff;
+}
+
+.three_block_button{
+	width: 270px;
+	height: 65px;
+	background: #E3D5B8;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 700;
+    font-size: 22px;
+    border: none;
+}
+
+.three_block_button:hover{
+	color: #fff;
+	background: black;
+	cursor: pointer;
+}
+
+// 4 блок
+.four_block_h2{	
+}
+
+.four_block_ul{
+	display: flex;
+	justify-content: space-between;
+}
+
+.four_block_li{
+	width: 320px;
+    height: 380px;
+	background: #fff;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    position: relative;
+}
+
+.p_s{
+	margin: 0;
+}
+
+.p_f{
+	margin: 0;
+}
+
+p b{
+	font-size: 60px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #D03958;
+}
+
+.p_fs{
+    width: 177px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.four_block_button{
+	width: 200px;
+	height: 50px;
+	background: #E3D5B8;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 700;
+    font-size: 22px;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+}
+
+.four_block_button:hover{
+	color:  #fff;
+	background: #D03958;
+	cursor: pointer;
+}
+
+.section--four{
+	background: #E3D5B8;
+}
+
+// 5 блок
+.section--fiver{
+	display: flex;
+	justify-content: space-between;
+	border-top: 70px solid #0000;
+}
+
+.five_block_ul{
+    width: 505px;
+}
+
+.five_block_ul_three{
+	display: flex;
+	flex-wrap: wrap;
+    border-left: 25px solid #0000;
+}
+
+.five_block_li{
+	display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.five_block_p{
+	width: 360px;
+    margin: 0;
+}
+
+.five_block_pp{
+	width: 360px;
+    margin: 10px 0 0 0;
+}
+
+.five_block_img{
+	position: absolute;
+    right: 10px;
+    border-radius: 50%;
+}
+
+.five_block_li_twoo{
+	margin: 0px 0px 20px 58px;
+}
+
+.five_block_li_two{
+	margin: 0px 0px 20px 40px;
+}
+
+.five_block_li_img{
+	border-radius: 50%
+}
+
+hr{
+	height: 85px;
+    border: #0000;
+    margin: 0;
+}
+
+.five_block_ppp{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+
+// 6 блок
+.section--six{
+	background: #161616;
+	height: 180px;
+    align-items: center;
+    display: flex;
+}
+
+.container--six{
+	display: flex;
+    justify-content: space-between;
+}
+
+.div__six{
+	width: 850px;
+    display: flex;
+}
+
+.div__six_p{
+	width: 445px;
+    color: #fff;
+}
+
+.div__six_pp{
+	width: 150px;
+	color: #D03958;
+}
+
+// общие маркеры
+section{
+	padding: 30px 0 0 0;
+}
+
+.container{
+	width: 100%;
+	max-width: 1010px;
+	margin: 0 auto;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1;
+	text-transform: uppercase;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+ }
+ ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ }
