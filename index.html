@@ -4,197 +4,200 @@
 <!-- язык сайта -->
 <html lang="en">  
 
-<!-- заголовок страницы сайта (не отображается) -->
-<head>
+	<!-- заголовок страницы сайта (не отображается) -->
+	<head>
 
-	<!-- распознавание текста не как ироглифы, а как текст -->
-	<meta charset="utf-8"> 
+		<!-- распознавание текста не как ироглифы, а как текст -->
+		<meta charset="utf-8"> 
 
-	<!-- размер макета в  content="width= " -->
-	<meta charset="viewport" content="width=1010">
+		<!-- размер макета в  content="width= " -->
+		<meta name="viewport" content="width=575px">
 
-	<!-- ссылка на подключение css файла -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- ссылка на шрифт -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif&display=swap&subset=cyrillic" rel="stylesheet">
+		<!-- ссылка на подключение css файла -->
+		<link rel="stylesheet" href="css/style.css">
 
 
-	<!-- заголовок страницы отображаемый в браузере -->
-	<title>Travel agency</title>
+		<script src="jscript.js"></script>
 
-</head>
-<body>
+		<!-- ссылка на шрифт -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif&display=swap&subset=cyrillic" rel="stylesheet">
 
-	<!-- навигация -->
-	<header class="header">
-		<div class="container">
-			<nav class="nav">
-					<a href="index.html">
+
+		<!-- заголовок страницы отображаемый в браузере -->
+		<title>Travel agency</title>
+
+	</head>
+	<body>
+
+		<!-- навигация -->
+		<header class="header">
+			<div class="container">
+				<nav class="nav">
+						<a href="index.html">
+							<img src="images/Logo.png" alt="">
+						</a>
+					<ul class="top__menu">
+						<!-- <li class="top_menu"><a class="top___menu" href="#home">Home</a></li> -->
+						<li class="top_menu"><a class="top___menu" href="#pricing">Pricing</a></li>
+						<li class="top_menu"><a class="top___menu" href="#services">Services</a></li>
+						<li class="top_menu"><a class="top___menu" href="#gallery">Gallery</a></li>
+						<!-- <li class="top_menu"><a class="top___menu" href="">Contact</a></li> -->
+					</ul>
+				</nav>
+			</div>		
+		</header>
+
+		<!-- 1 блок -->
+		<div class="intro">
+			<div class="container container--one">
+				<div class="intro__text">
+					<h1>Travel is beautiful</h1>
+					<p class="intro__text_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- 2 блок -->
+		<section class="section section--two">
+			<div class="container">
+				<h2 id="services" class="two_block_h2">Our services</h2>
+				<ul class="two_block_ul">
+					<li class="two_block_li">
+						<div class="two_block__img">
+							<img class="two_block_img" src="images/OUR_SERVICES/1.png" alt="">
+						</div>
+						<p class="two_block_p">Making your trip beatiful and easier</p>
+					</li>
+					<li class="two_block_li">
+						<div class="two_block__img">
+							<img class="two_block_img" src="images/OUR_SERVICES/2.png" alt="">
+						</div>
+						<p class="two_block_p">Tools to help you suceed tommorow</p>
+					</li>
+					<li class="two_block_li">
+						<div class="two_block__img">
+							<img class="two_block_img" src="images/OUR_SERVICES/3.png" alt="">
+						</div>
+						<p class="two_block_p">Idea that will blow you out the blue</p>
+					</li>
+					<li class="two_block_li">
+						<div class="two_block__img">
+							<img class="two_block_img" src="images/OUR_SERVICES/4.png" alt="">
+						</div>
+						<p class="two_block_p">Navigate your path to beautiful world</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- 3 блок -->
+		<section class="section section--three">
+			<div class="container container--three">
+				<div class="three_block_text">
+					<p class="three_block_p">We are in business for over 6 years providing amazing services to client and people love them to the core. View our story to know more.</p>
+					<button class="three_block_button">Our story</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- 4 блок -->
+		<section class="section section--four">
+			<div class="container">
+				<h2 id="pricing" class="four_block_h2">Pricing</h2>
+				<ul class="four_block_ul">
+					<li class="four_block_li">
+						<p class="p_s">Starter</p>
+						<p class="p_f"><b>Free</b></p>
+						<p class="p_fs">Free Service 
+						   Multiple Accounts 
+						   Management No</p>
+						<button class="four_block_button">Try</button>
+					</li>
+					<li class="four_block_li">
+						<!-- SVG рисунок  -->
+						<p class="p_s">Business</p>
+						<p class="p_f"><b>$97</b></p>
+						<p class="p_fs">Free Service 
+						   Multiple Accounts 
+						   Management No 
+						   Unlimited Data</p>
+						<button class="four_block_button">Sign up</button>
+					</li>
+					<li class="four_block_li">
+						<p class="p_s">Professional</p>
+						<p class="p_f"><b>$297</b></p>
+						<p class="p_fs">Free Service 
+						   Multiple Accounts 
+						   Management No 
+						   Unlimited Data
+						   Whatever You Need</p>
+						<button class="four_block_button">Sign up</button>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- 5 блок -->
+		<section>
+			<div class="container section--fiver">
+				<ul class="five_block_ul">
+					<h2>Testimonial</h2>
+					<li class="five_block_li">
+						<p class="five_block_p">I have been involved with this comapny 
+						for ages and just want to say this is a 
+						great work by designcoon.</p>
+						<p class="five_block_pp">DJ Bravo - Frequent Travelera</p>
+						<img class="five_block_img" src="http://placehold.it/110" alt="">
+					</li>
+					<hr>
+					<li class="five_block_li">
+						<p class="five_block_p">I have been involved with this comapny 
+						for ages and just want to say this is a 
+						great work by designcoon.</p>
+						<p class="five_block_pp">DJ Bravo - Frequent Travelera</p>
+						<img class="five_block_img" src="http://placehold.it/110" alt="">
+					</li>
+				</ul>
+
+				<ul class="five_block_ul">
+					<h2>Gallery</h2>				
+					<ul class="five_block_ul_three">
+						<li class="five_block_li_twoo">
+							<img class="five_block_li_img"  src="http://placehold.it/110" alt="">			
+						</li>
+						<li class="five_block_li_two">
+							<img class="five_block_li_img"  src="http://placehold.it/110" alt="">			
+						</li>
+						<li class="five_block_li_two">
+							<img class="five_block_li_img"  src="http://placehold.it/110" alt="">			
+						</li>
+						<li class="five_block_li_twoo">
+							<img class="five_block_li_img"  src="http://placehold.it/110" alt="">			
+						</li>
+						<li class="five_block_li_two">
+							<img class="five_block_li_img"  src="http://placehold.it/110" alt="">			
+						</li>
+						<li class="five_block_li_two">
+							<img class="five_block_li_img" src="http://placehold.it/110" alt="">			
+						</li>
+					</ul>
+					<a href=""><p class="five_block_ppp">View more pictures</p></a>
+				</ul>
+			</div>
+		</section>
+		<section class="section section--six">
+			<div id="gallery" class="container container--six">
+				<div class="div__six">
+					<p class="div__six_p">All Rights Reserved |  2016  |  Designed with love by</p>
+					<p class="div__six_pp">DesignCoon</p>
+				</div>
+				<div class="">
+					<a href="">
 						<img src="images/Logo.png" alt="">
 					</a>
-				<ul class="top__menu">
-					<li class="top_menu"><a class="top___menu" href="">Home</a></li>
-					<li class="top_menu"><a class="top___menu" href="">About</a></li>
-					<li class="top_menu"><a class="top___menu" href="">Services</a></li>
-					<li class="top_menu"><a class="top___menu" href="">Callery</a></li>
-					<li class="top_menu"><a class="top___menu" href="">Contact</a></li>
-				</ul>
-			</nav>
-		</div>		
-	</header>
-
-	<!-- 1 блок -->
-	<div class="intro">
-		<div class="container container--one">
-			<div class="intro__text">
-				<h1>Travel is beautiful</h1>
-				<p class="intro__text_p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+				</div>
 			</div>
-		</div>
-	</div>
-
-
-	<!-- 2 блок -->
-	<section class="section section--two">
-		<div class="container">
-			<h2 class="two_block_h2">Our services</h2>
-			<ul class="two_block_ul">
-				<li class="two_block_li">
-					<div class="two_block__img">
-						<img class="two_block_img" src="images/OUR SERVICES/1.png" alt="">
-					</div>
-					<p class="two_block_p">Making your trip beatiful and easier</p>
-				</li>
-				<li class="two_block_li">
-					<div class="two_block__img">
-						<img class="two_block_img" src="images/OUR SERVICES/2.png" alt="">
-					</div>
-					<p class="two_block_p">Tools to help you suceed tommorow</p>
-				</li>
-				<li class="two_block_li">
-					<div class="two_block__img">
-						<img class="two_block_img" src="images/OUR SERVICES/3.png" alt="">
-					</div>
-					<p class="two_block_p">Idea that will blow you out the blue</p>
-				</li>
-				<li class="two_block_li">
-					<div class="two_block__img">
-						<img class="two_block_img" src="images/OUR SERVICES/4.png" alt="">
-					</div>
-					<p class="two_block_p">Navigate your path to beautiful world</p>
-				</li>
-			</ul>
-		</div>
-	</section>
-
-	<!-- 3 блок -->
-	<section class="section section--three">
-		<div class="container container--three">
-			<div class="three_block_text">
-				<p class="three_block_p">We are in business for over 6 years providing amazing services to client and people love them to the core. View our story to know more.</p>
-				<button class="three_block_button">Our story</button>
-			</div>
-		</div>
-	</section>
-
-	<!-- 4 блок -->
-	<section class="section section--four">
-		<div class="container">
-			<h2 class="four_block_h2">Pricing</h2>
-			<ul class="four_block_ul">
-				<li class="four_block_li">
-					<p class="p_s">Starter</p>
-					<p class="p_f"><b>Free</b></p>
-					<p class="p_fs">Free Service 
-					   Multiple Accounts 
-					   Management No</p>
-					<button class="four_block_button">Try</button>
-				</li>
-				<li class="four_block_li">
-					<!-- SVG рисунок  -->
-					<p class="p_s">Business</p>
-					<p class="p_f"><b>$97</b></p>
-					<p class="p_fs">Free Service 
-					   Multiple Accounts 
-					   Management No 
-					   Unlimited Data</p>
-					<button class="four_block_button">Sign up</button>
-				</li>
-				<li class="four_block_li">
-					<p class="p_s">Professional</p>
-					<p class="p_f"><b>$297</b></p>
-					<p class="p_fs">Free Service 
-					   Multiple Accounts 
-					   Management No 
-					   Unlimited Data
-					   Whatever You Need</p>
-					<button class="four_block_button">Sign up</button>
-				</li>
-			</ul>
-		</div>
-	</section>
-
-	<!-- 5 блок -->
-	<section>
-		<div class="container section--fiver">
-			<ul class="five_block_ul">
-				<h2>Testimonial</h2>
-				<li class="five_block_li">
-					<p class="five_block_p">I have been involved with this comapny 
-					for ages and just want to say this is a 
-					great work by designcoon.</p>
-					<p class="five_block_pp">DJ Bravo - Frequent Travelera</p>
-					<img class="five_block_img" src="http://placehold.it/110" alt="">
-				</li>
-				<hr>
-				<li class="five_block_li">
-					<p class="five_block_p">I have been involved with this comapny 
-					for ages and just want to say this is a 
-					great work by designcoon.</p>
-					<p class="five_block_pp">DJ Bravo - Frequent Travelera</p>
-					<img class="five_block_img" src="http://placehold.it/110" alt="">
-				</li>
-			</ul>
-
-			<ul class="five_block_ul">
-				<h2>Gallery</h2>				
-				<ul class="five_block_ul_three">
-					<li class="five_block_li_twoo">
-						<img class="five_block_li_img"  src="http://placehold.it/110" alt="">			
-					</li>
-					<li class="five_block_li_two">
-						<img class="five_block_li_img"  src="http://placehold.it/110" alt="">			
-					</li>
-					<li class="five_block_li_two">
-						<img class="five_block_li_img"  src="http://placehold.it/110" alt="">			
-					</li>
-					<li class="five_block_li_twoo">
-						<img class="five_block_li_img"  src="http://placehold.it/110" alt="">			
-					</li>
-					<li class="five_block_li_two">
-						<img class="five_block_li_img"  src="http://placehold.it/110" alt="">			
-					</li>
-					<li class="five_block_li_two">
-						<img class="five_block_li_img" src="http://placehold.it/110" alt="">			
-					</li>
-				</ul>
-				<a href=""><p class="five_block_ppp">View more pictures</p></a>
-			</ul>
-		</div>
-	</section>
-	<section class="section section--six">
-		<div class="container container--six">
-			<div class="div__six">
-				<p class="div__six_p">All Rights Reserved |  2016  |  Designed with love by</p>
-				<p class="div__six_pp">DesignCoon</p>
-			</div>
-			<div>
-				<a href="index.html">
-					<img src="images/Logo.png" alt="">
-				</a>
-			</div>
-		</div>
-	</section>
-</body>
+		</section>
+	</body>
 </html>
